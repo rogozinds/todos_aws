@@ -1,6 +1,6 @@
-## Simple Todo App with AWS amplify, every step is a separate commit/tag.
+## Simple Todo App with AWS amplify, every step is a separate tag in paranthesis.
 
-### Create a React app from the template
+### Create a React app from the template(create_npx)
 npx create-react-app todo-list
 cd todo-list
 npm start
@@ -11,9 +11,12 @@ amplify configure
   >> Choose region eu-west-1
   >> Create user amplify-todo
 
-### Initialize Amplify
+### Initialize Amplify(amplify_init)
 amplify init
 >> use default
+
+### Add hosting in S3(add_hosting)
+amplify hosting add
 
 ### Add GraphQL API and DynamoDB
 amplify add api
