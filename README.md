@@ -22,8 +22,11 @@ amplify hosting add
 amplify add api
 amplify push
 
-
-
+### Add client side code to show todolist (add_client_code)
+npm install @material-ui/core
+npm install --save aws-amplify
+npm install aws-amplify-react
+edit App.js file  
 ## Available Scripts
 
 In the project directory, you can run:
