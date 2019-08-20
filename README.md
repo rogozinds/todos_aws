@@ -1,5 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Simple Todo App with AWS amplify, every step is a separate commit/tag.
 
+### Create a React app from the template
+npx create-react-app todo-list
+cd todo-list
+npm start
+
+### Install aws-amplify and configure (this will create an IAM user and add key for programmatic access)
+npm install -g @aws-amplify/cli
+amplify configure
+  >> Choose region eu-west-1
+  >> Create user amplify-todo
+
+### Initialize Amplify
+amplify init
+>> use default
+
+### Add GraphQL API and DynamoDB
+amplify add api
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,0 +1,14 @@
+{
+    "todoenv": {
+        "awscloudformation": {
+            "AuthRoleName": "todo-list-todoenv-20190820164205-authRole",
+            "UnauthRoleArn": "arn:aws:iam::800235740771:role/todo-list-todoenv-20190820164205-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::800235740771:role/todo-list-todoenv-20190820164205-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "todo-list-todoenv-20190820164205-deployment",
+            "UnauthRoleName": "todo-list-todoenv-20190820164205-unauthRole",
+            "StackName": "todo-list-todoenv-20190820164205",
+            "StackId": "arn:aws:cloudformation:eu-west-1:800235740771:stack/todo-list-todoenv-20190820164205/adea1b90-c358-11e9-8ca4-06b1980d26e6"
+        }
+    }
+}
