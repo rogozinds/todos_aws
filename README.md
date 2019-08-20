@@ -18,8 +18,12 @@ amplify init
 ### Add hosting in S3(add_hosting)
 amplify hosting add
 
-### Add GraphQL API and DynamoDB
+### Add GraphQL API and DynamoDB(add_graphql)
 amplify add api
+amplify push
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
