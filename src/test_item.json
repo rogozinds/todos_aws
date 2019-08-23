@@ -1,0 +1,14 @@
+{
+    "id":{
+        "S": "31246"
+    },
+    "name": {
+        "S":"item from json"
+    },
+    "description": {
+        "S": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id augue hendrerit, tincidunt lectus in, bibendum tortor. Phasellus euismod nulla vitae consequat laoreet. Pellentesque euismod ante mi, nec tristique nibh pulvinar vel. Nunc eget urna est. Vestibulum aliquam laoreet lacus ac accumsan."
+    },
+    "priority":{
+        "S":"High"
+    }
+}
